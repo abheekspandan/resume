@@ -1,0 +1,88 @@
+{
+	"basics": {
+		"name": "Abheek Spandan",
+		"label": "Student",
+		"picture": "",
+		"email": "2021kucp1005@iiitkota.ac.in",
+		"phone": "+916397514762",
+		"website": "",
+		"summary": "I'm a student of Indian Institute of Information technology,Kota (India), persuing my B.tech in Computer Science & engineering. Building awesome WebApp. I have enthusiasm in Full Stack development.",
+		"location": {
+			"address": "",
+			"postalCode": "246149",
+			"city": "kotdwar",
+			"countryCode": " India",
+			"region": "Uttarakhand"
+		},
+		"profiles": [{
+				"network": "",
+				"username": "",
+				"url": ""
+			},
+			{
+				"network": "Github",
+				"username": "abheekspandan",
+				"url": "https://www.github.com/abheekspandan"
+			},
+			{
+				"network": "",
+				"username": "",
+				"url": ""
+			},
+			{
+				"network": "Instagram",
+				"username": "abheek_2002",
+				"url": "https://instagram.com/abheek_2002"
+			}
+		]
+	},
+
+
+	"education": [{
+		"institution": "Indian Institute of Information Technology,Kota",
+		"area": "Engineering",
+		"studyType": "Bachelor (hons)",
+		"startDate": "",
+		"endDate": "",
+		"gpa": "",
+		"courses": [
+			"Computer Science & Engineering"
+		]
+	}],
+
+
+	"skills": [{
+		"name": "Front end Development",
+		"level": "Intermediate",
+		"keywords": [
+			"HTML",
+			"CSS",
+			"C/C++",
+			"Javascript"
+		]
+	}],
+	"languages": [{
+		"language": "English",
+		"fluency": "Intermediate"
+	}, {
+		"language": "Hindi",
+		"fluency": "Native speaker"
+	}, {
+		"language": "Bengali",
+		"fluency": "Intermediate"
+	}],
+	"interests": [{
+			"name": "Reading",
+			"keywords": [
+				"novel"
+			]
+		},
+		{
+			"name": "Playing",
+			"keywords": [
+				"Table Tennis",
+				"Badminton"
+			]
+		}
+	]
+}
