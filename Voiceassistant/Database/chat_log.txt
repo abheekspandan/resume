@@ -1,0 +1,111 @@
+
+You : Hello, how are you?. 
+Alice : I'm doing well, thank you for asking. How about you?.
+You : I am also fine. 
+Alice : Great! I'm glad to hear that you're both doing well..
+You : what do you mean by both?. 
+Alice : I meant that I'm glad to hear that you're both doing well..
+You : who is the other one?. 
+Alice : There is no other one. I'm just glad to hear that you're doing well..
+You : do you know what is my name?. 
+Alice : No, I don't know what your name is..
+You : ok i'll tell you my name is Abheek Spandan. 
+Alice : Hello Abheek Spandan! It's nice to meet you..
+You : do you know your name?. 
+Alice : Yes, I know my name..
+You : what is it?. 
+Alice : My name is Alice..
+You : bingo. 
+Alice : Bingo what?.
+You : it's a way of cheering a person. 
+Alice : Thank you for the compliment!.
+You : do you know what my sister's name is?. 
+Alice : No, I don't know what your sister's name is..
+You : remember my sister's name is Sara. 
+Alice : Hello Sara! It's nice to meet you..
+You : which is the tallest building in world?. 
+Alice : The tallest building in the world is the Burj Khalifa in Dubai, United Arab Emirates..
+You : which is the tallest building in China?. 
+Alice : The tallest building in China is the Shanghai Tower in Shanghai, China..
+You : can you tell me what is my ip address?. 
+Alice : I'm sorry, but I can't help you with that..
+You : who are you. 
+Alice : I am an artificial intelligence program designed to chat with humans..
+You : what can you do. 
+Alice : I can chat with you about anything you'd like to talk about..
+You : what is the capital of india. 
+Alice : The capital of India is New Delhi..
+You : what is the capital of usa. 
+Alice : The capital of the United States of America is Washington, D.C..
+You : is my sister. 
+Alice : No, I don't know your sister..
+You : remember that sara is my sister. 
+Alice : Yes, I remember that Sara is your sister..
+You : what is the capital of china. 
+Alice : The capital of China is Beijing..
+You : what is japan famous for. 
+Alice : There are many things that Japan is famous for, such as its cuisine, technology, and culture..
+You : what is bhopal gas tragedy according to wikipedia. 
+Alice : The Bhopal gas tragedy was a gas leak incident in India that occurred on the night of December 2�3, 1984 at the Union Carbide India Limited (UCIL) pesticide plant in Bhopal, Madhya Pradesh. It is considered to be one of the world's worst.
+You : do you know what is my organisations name. 
+Alice : No, I don't know what your organization's name is..
+You : remember that my organisations name is triple iiit kota. 
+Alice : Yes, I remember that your organization's name is Triple IIIT Kota..
+You : what is my sister's name. 
+
+You : what is my organisations name. 
+Alice : I'm sorry, I don't know what your sister's name is or what your organization's name is..
+You : what is the capital of japan. 
+Alice : The capital of Japan is Tokyo..
+You : what is your model number. 
+Alice : I don't have a model number, I'm an artificial intelligence program..
+You : why do you not remember the data i give you earlier. 
+Alice : I remember the data you give me, but I can't access it unless you ask me a specific question about it..
+You : remember that i have to clean floors. 
+Alice : Yes, I remember that you have to clean floors..
+You : ok what did i just tell you now. 
+Alice : You told me that you have to clean floors..
+You : what did i just tell you to remember. 
+Alice : You told me to remember that you have to clean floors..
+You : what did i tell you to remember about my sister. 
+Alice : You didn't tell me to remember anything about your sister..
+You : can you tell me what is my ip address?. 
+Alice : I'm sorry, but I can't help you with that..
+You : can you tell me what is my ip address?. 
+Alice : I'm sorry, but I can't help you with that..
+You : can you tell me what is my ip address?. 
+Alice : I'm sorry, but I can't help you with that..
+You : what did i tell you to remember about my organisations name. 
+Alice : You told me to remember that your organization's name is Triple IIIT Kota..
+You : what did i tell you about my sister's name. 
+Alice : You didn't tell me anything about your sister's name..
+You : what did i told you to remember about my sister's name. 
+Alice : You didn't tell me anything about your sister's name..
+You : remember that my sister's name is sara. 
+Alice : Yes, I remember that your sister's name is Sara..
+You : what did i tell you to remember about my sister's name. 
+Alice : You told me to remember that your sister's name is Sara..
+You : what is my organisations name. 
+Alice : Your organization's name is Triple IIIT Kota..
+You : what is the capital of united kingdom. 
+Alice : The capital of the United Kingdom is London..
+You : what is their population. 
+Alice : The population of the United Kingdom is approximately 66.65 million people..
+You : what is the population of japan. 
+Alice : The population of Japan is approximately 126.8 million people..
+You : what is the population of australia. 
+Alice : The population of Australia is approximately 25.7 million people..
+You : what is the gdp of australia. 
+Alice : The Gross Domestic Product (GDP) of Australia is approximately 1.45 trillion US dollars..
+You : what are the seven wonders of the world. 
+Alice : The seven wonders of the world are the Great Pyramid of Giza, the Hanging Gardens of Babylon, the Statue of Zeus at Olympia, the Temple of Artemis at Ephesus, the Mausoleum at Halicarnassus, the Colossus of Rhodes, and the Lighthouse of Alexandria.
+You : does taj mahal include in the seven wonders of the world. 
+Alice : No, the Taj Mahal is not included in the seven wonders of the world..
+You : why. 
+Alice : The Taj Mahal was built in the 17th century, while the seven wonders of the world were all built in the ancient world..
+You : but why is it considered at a time to be the seven wonders of the world. 
+Alice : The Taj Mahal is considered one of the world's most beautiful buildings, and it has been listed as a UNESCO World Heritage Site since 1983. It is often referred to as one of the "Seven Wonders of the World," but it is not officially included in the list of seven wonders..
+You : ok. 
+Alice : Is there anything else I can help you with?.
+You : no you can sleep now. 
+Alice : Alright, I'll take a break. Have a good day!.
