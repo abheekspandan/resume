@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <style>
+         button{
+    margin-left: 42.5%;
+    margin-top:12%;
+    margin-bottom: 1.5%;
+    border:2px solid black;
+    border-radius: 5px;
+    background-color: crimson;
+    padding:1.5%;
+    font-size: large;
+    text-decoration: none;
+    color: black;
+}
+button:hover{
+    color:white;
+    cursor: pointer;
+}
+        .con{
+            border: 2px solid white;
+            border-radius: 5px;
+            width: 25%;
+          line-height: 150%;
+            align-items: center;
+            text-align: center;
+            margin-left: 37.5%;
+            margin-top: 5%;
+            padding-right: 2.5%;
+        }
+        #back{
+            background-repeat: no-repeat;
+           background-size: cover;
+        }
+        #text{
+            top:50px;
+            color: antiquewhite;
+            text-align: center;
+        }
+        .info{
+            color: azure;
+            text-shadow: 10px;
+            text-align: center;
+            text-decoration: none;
+        }
+        #inf{
+            text-decoration: none;
+        }
+        ul{
+            text-decoration: none;
+            list-style: none;
+        }
+        /* Style inputs with type="text", select elements and textareas */
+input[type=text],input[type=email],input[type=tel], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  display:block;
+  /*resize: vertical  Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #ee0e0e;
+  color: white;
+  padding: 12px 20px;
+  border:1px solid black;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 40%;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #000000;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  border:3px solid red;
+  
+  background-color: #f2f2f2;
+  padding: 20px;
+  width:50%;
+  margin-left: 25%;
+  margin-top: 5%;
+}
+.h3{
+    color: aliceblue;
+    margin-left: 40%;
+}
+    </style>
+</head>
+<body background="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg" id="back">
+    <div class="con">
+    <h1 id="text"><u>Contact:-</u></h1>
+    <ul class="info" id="inf" >
+        <li>Name:ABHEEK SPANDAN</li>
+        <li>Ph.No(+91):- 6397514762</li>
+        <li>Email:- 2021kucp1005@iiitkota.ac.in</li>    
+    </ul>
+    </div>
+    <h3>Contact form-</h3>
+    <div class="container">
+        <form action="action_page.php">
+      
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="australia">India(+91)</option>
+            <option value="canada">UK(+44)</option>
+            <option value="usa">USA(+1)</option>
+          </select>
+
+          <label for="phone">Ph. No:</label>
+          <input type="tel" id="fname" name="Phone number" placeholder="Phone number">
+
+          <label for="email">Email Address</label>
+          <input type="email" id="fname" name="Email" placeholder="Email">
+
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+      
+        </form>
+      </div>
+    <a href="website.html"> <button>Return to Home Page</button></a>
+</body>
+</html>
