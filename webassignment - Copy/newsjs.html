@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Assignment JS</title>
+   
+    <style>
+       p {
+    font-size: 140%;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    margin-left: 3%;
+    width: 95%;
+    height: 600%;
+    outline: #e92727 solid 6px;
+    border: 3px solid black;
+
+}
+.danger {
+  border-color: #f44336;
+  color: red
+}
+
+.danger:hover {
+  background: #f44336;
+  color: white;
+}
+button{
+    border: 2px solid black;
+  background-color: white;
+  color: black;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer; 
+  border-radius: 10px; 
+}
+h1,h3{
+    align-items: center;
+    margin-left: 35%;
+}
+h6{
+    margin-left: 80%;
+}
+#x{
+    color: black;
+}
+    </style>
+</head>
+
+<body bgcolor = "lightblue">
+<h1><u>Javascript Assignment</u></h1>
+<h3>2021 KUCP 1005 - ABHEEK SPANDAN</h3>
+<h6>Note:-refresh the page to return to original page</h6>
+    <p>1.Use JavaScript to calculate the sum of first 10 natural nos. <button id="click" onclick="sumUptoTen()" class="danger"> Solution </button></p>
+    <p>2.Use JavaScript program to add all numbers in between any two given numbers. <button id="click" onclick="addBetween() " class="danger"> Solution </button> </p>
+    <p>3.Use JavaScript program to display table of 5. <button id="click" onclick="tableOf5()" class="danger"> Solution </button> </p>
+    <p>4.Use JavaScript program to display table of any given number. <button id="click" onclick="tableOfNumber()" class="danger"> Solution </button> </p>
+    <p>5.Use JavaScript program to add all digits form given value. (for ex. 123 = 6) <button id="click" onclick="sumOfDigits()" class="danger"> Solution</button> </p>
+    <p>6.Use JavaScript program to calculate the reverse of the given number. <button id="click" onclick="reverseNumber()" class="danger"> Solution</button> </p>
+    <p>7.Use JavaScript code to display even numbers between 0 to 10. <button id="click" onclick="evenNumbers()" class="danger"> Solution</button> </p>
+    <p>8.Use JavaScript code to display all odd numbers between any two given numbers. <button id="click" onclick="oddNumbersBtw()" class="danger"> Solution</button> </p>
+    <p>9.Use JavaScript code to display all numbers in between 1 and 30 which are divisible by 3 <button id="click" onclick="numbersBtwDivBy3()" class="danger"> Solution</button> </p>
+    <p>10.Use JavaScript code to display all numbers in between any two given numbers which are not divisible by 3. <button id="click" onclick="numberNotDivBy3()" class="danger"> Solution</button> </p>
+    <p>11.Use JavaScript code to calculate double of the given number. (Event based) <button id="click" onclick="doubleOfnumber()" class="danger"> Solution</button> </p>
+    <p>12.Use JavaScript code to accept a day and checks whether is a weekend or a working day. <button id="click" onclick="checkForTheDay()" class="danger"> Solution</button> </p>
+    <p>13.Use JavaScript code to calculate Fibonacci Series up to N terms. Where N is any given number. <button id="click" onclick="fibonacci()" class="danger"> Solution</button> </p>
+    <p>14.Use JavaScript code to calculate square and cube of the number. <button id="click" onclick="squareAndCube()" class="danger"> Solution</button> </p>
+    <p onmouseover="showImage()" onmouseleave="hideImage()" id="x">15.Use JavaScript code using mouse event so that by moving the mouse pointer over the text, the
+        image should display.Move over to see image</p><img id="image" src ="D:\important files\desktop\offset_comp_772626-opt.jpg" width="300px" height="200px">
+    <p>16.Use JavaScript program to find greatest no. from any three given nos. <button id="click" onclick="greatestOfThree()" class="danger">Solution</button> </p>
+    <p>17.Use JavaScript to calculate the sum of first N natural nos., where N is a any given no. <button id="click" onclick="sumOfNaturalNumbers()" class="danger"> Solution</button> </p>
+    <p>18.Use a JavaScript to change background color of the document by using mouseover event of button.<button id = "click" onmouseover="bgcolor_1()" onmouseleave="bgcolor_2()" class="danger">Solution</button></p>
+    <p>19.Use a JavaScript to check whether the given text is number or not. <button id="click" onclick="numberOrNot()" class="danger"> Solution</button> </p>
+    <p>20.Use a JavaScript to check whether the given no. is +ve or –ve or zero. <button id="click" onclick="posOrNeg()" class="danger"> Solution</button> </p>
+
+</body>
+<script>
+    alert("Welcome to the solution of Assignment!")
+var i, sum;
+sum = 0;
+
+function sumUptoTen() {
+
+    for (i = 1; i <= 10; i++) {
+        sum += i;
+    }
+
+    prompt(`The sum of first 10 natural is `, sum);
+}
+
+function showImage() {
+    document.getElementById("image").src = "JS.png"
+}
+
+function hideImage() {
+    document.getElementById("image").src = "";
+}
+
+function addBetween() {
+    const num1 = parseInt(prompt('Enter first number: '));
+    const num2 = parseInt(prompt('Enter second number: '));
+
+    for (let i = num1 + 1; i < num2; i++) {
+        sum += i;
+    }
+    return prompt(`Sum of numbers between ${num1} and ${num2} is `, sum);
+}
+
+function tableOf5() {
+    var res;
+    for (i = 1; i <= 10; i++) {
+        res = 5 * i;
+        document.write(`5 X ${i} = ${res} <br>`);
+
+    }
+}
+
+function tableOfNumber() {
+    const number = parseInt(prompt('Enter an integer: '));
+    for (i = 1; i <= 10; i++) {
+
+        var result = i * number
+        document.write(`${number} X ${i} = ${result} <br>`);
+
+    }
+}
+
+function sumOfDigits() {
+    var num = prompt('Enter a number ');
+    const n = num;
+    while (num) {
+        sum += num % 10;
+        num = Math.floor(num / 10);
+    }
+
+    return prompt(`Sum of all digits in ${n} is `, sum);
+
+}
+
+function reverseNumber() {
+    var num = prompt('Enter a number ');
+    const n = num;
+    var revnum = "";
+    while (num) {
+        var n1 = num % 10;
+        revnum += n1.toString();
+        num = Math.floor(num / 10);
+    }
+    prompt(`Reverse of number ${n} is `, revnum);
+}
+
+function evenNumbers() {
+    var evenum = "";
+    for (i = 1; i < 10; i++) {
+        if (i % 2 == 0) {
+            evenum = evenum + i.toString() + ' ';
+        }
+        else {
+            evenum += "";
+        }
+    }
+    prompt(`All even numbers btw 0 and 10 are `, evenum);
+}
+
+function oddNumbersBtw() {
+    const num1 = parseInt(prompt('Enter first number'));
+    const num2 = parseInt(prompt('Enter second number'));
+
+    var oddnum = "";
+    for (i = num1 + 1; i < num2; i++) {
+        if (i % 2 == 1) {
+            oddnum = oddnum + i.toString() + ' ';
+        }
+        else {
+            oddnum += "";
+        }
+    }
+
+    prompt(`All odd numbers btw ${num1} and ${num2} are `, oddnum);
+}
+
+function numbersBtwDivBy3() {
+    var num = "";
+    for (i = 1; i < 30; i++) {
+        if (i % 3 == 0) {
+            num = num + i.toString() + ' ';
+        }
+        else {
+            num += "";
+        }
+    }
+    prompt(`All numbers btw 1 and 30 which are divisible by 3 are `, num);
+}
+
+function numberNotDivBy3() {
+    const num1 = parseInt(prompt('Enter first number'));
+    const num2 = parseInt(prompt('Enter second number'));
+
+    var num = "";
+    for (i = num1 + 1; i < num2; i++) {
+        if (i % 3 != 0) {
+            num = num + i.toString() + ' ';
+        }
+        else {
+            num += "";
+        }
+    }
+    prompt(`All numbers btw ${num1} and ${num2} non-divisible by 3 are `, num);
+}
+
+function doubleOfnumber() {
+    const num = parseInt(prompt('Enter any number'));
+    const double = num * 2;
+
+    prompt(`Double of ${num} is `, double);
+}
+
+function checkForTheDay() {
+    const str = prompt('Enter any weekday of your choice!(in Small letters only)');
+
+    if (str == "saturday" | str == "sunday") {
+        alert(`Hurray! it's a weekend today`);
+    }
+    else {
+        alert(`Oh No! it's a working day today`);
+    }
+}
+
+function fibonacci() {
+    var n1 = 0, n2 = 1, next_num, i;
+    var N = prompt('Enter upto which term fibonacci series be printed');
+    document.write("Fibonacci Series: ");
+    for (i = 1; i <= N; i++) {
+        document.write(" <br> " + n1);
+        next_num = n1 + n2;
+
+        n1 = n2;
+        n2 = next_num;
+    }
+}
+
+function squareAndCube() {
+    const n = parseInt(prompt('Enter any number'));
+    prompt(`Square of number ${n} is `, Math.pow(n, 2));
+   
+    prompt(`Cube of number ${n} is `, Math.pow(n, 3));
+}
+
+function greatestOfThree() {
+    const arr = new Array;
+    for (i = 0; i < 3; i++) {
+        arr[i] = parseInt(prompt('Enter any number'));
+    }
+
+    for (i = 0; i < 3; i++) {
+        var max = arr[0];
+        if (max < arr[i]) {
+            max = arr[i];
+        }
+    }
+    prompt(`Maximum of ${arr[0]}, ${arr[1]}, ${arr[2]} is `, max);
+}
+
+function sumOfNaturalNumbers() {
+    const n = parseInt(prompt('Enter the value up to which you want the sum'))
+    const sum = n * (n + 1) / 2;
+    prompt(`Sum of first ${n} natural numbers is `, sum);
+}
+
+function bgcolor_1() {
+    document.body.style.background = "green";
+}
+
+function bgcolor_2() {
+    document.body.style.background = "lightblue";
+}
+
+function numberOrNot() {
+
+    const text = prompt('Enter any text');
+    if(text >= '0');
+}
+
+function posOrNeg() {
+    const num = parseInt(prompt('Enter any number'));
+    if (num < 0) {
+        alert(` negative number `);
+    }
+    else if (num == 0) {
+        alert(` neither positive nor negative`);
+    }
+    else {
+        alert(` positive number `);
+    }
+}
+</script>
+</html>
